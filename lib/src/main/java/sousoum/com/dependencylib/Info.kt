@@ -10,15 +10,15 @@ public class Info {
      * @return the version as string
      */
     public fun version(): String {
-        return "1.0.0"
+        return "2.0.0"
     }
 
     /**
-     * Function that will only be accessible in the v1 of the lib
+     * Function that will only be accessible in the v2 of the lib
      *
      * @return a string
      */
-    public fun v1Function(): String {
+    public fun v2Function(): String {
         return "Hello world"
     }
 }
